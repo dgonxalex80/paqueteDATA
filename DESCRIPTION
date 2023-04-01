@@ -1,13 +1,16 @@
-Package: paquete
+Package: paqueteDATA
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
+Authors@R: person("Daniel Enrique", 
+                  "Gonzalez Gomez", , 
+                  "dgonzalez@javerianacali.edu.co", 
+                  role = c("aut", "cre"))
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Paquete creado como apoyo a los cursos de Estadística, Pontificia Universidad Javeriana Cali.
+             Contiene bases de datos  como apoyo a los recurso para los estudiantes.  
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Depends: 
-    R (>= 2.10)
+Depends: R (>= 3.5.0)
+
